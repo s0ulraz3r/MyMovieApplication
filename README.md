@@ -23,5 +23,7 @@
 
 * For handling the JSON data and to perform REST operations this application uses the [`Retrofit`](http://square.github.io/retrofit/). This is an API which makes HTTP API into a Java interface.
 
+* This application uses the [The Moviedb API](https://www.themoviedb.org) to get the details from the database. This application consumes this API and displays the result to the user.
+
 Developed By:
 Varun
