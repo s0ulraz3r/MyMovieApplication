@@ -53,8 +53,8 @@ public class MovieCustomAdapter extends ArrayAdapter {
         tvName.setText(movieDataModelList.get(i).getTitle());
         Log.d("Details", movieDataModelList.get(i).getTitle());
         TextView tvGenres = (TextView) view1.findViewById(R.id.tvGenre);
-
-        tvGenres.setText(String.valueOf(movieDataModelList.get(i).getGeners_name()));
+        String s = String.valueOf(movieDataModelList.get(i).getGeners_name()).replaceAll("\\[","").replaceAll("\\]","");
+        tvGenres.setText(s);
         TextView tvPopularity = (TextView) view1.findViewById(R.id.tvPopularity);
         tvPopularity.setText(movieDataModelList.get(i).getPopularity());
         ImageView imageView = (ImageView) view1.findViewById(R.id.ivMovieImg);
