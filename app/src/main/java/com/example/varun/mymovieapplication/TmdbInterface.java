@@ -7,6 +7,10 @@ import retrofit2.http.GET;
  * Created by kvaru on 2/23/2018.
  */
 
+/**
+ * This is Interface which handles the URL responsible for fetching Data.
+ */
+
 public interface TmdbInterface {
 
     String BASE_URL = "https://api.themoviedb.org/3/movie/";

@@ -37,8 +37,9 @@
         android:id="@+id/tvGenre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/textView3"
+        android:layout_above="@+id/textView7"
         android:layout_alignStart="@+id/tvTitle"
+        android:padding="2dp"
         android:text="TextView"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 

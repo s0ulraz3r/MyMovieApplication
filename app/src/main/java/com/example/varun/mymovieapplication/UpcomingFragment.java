@@ -17,6 +17,10 @@ import retrofit2.Call;
  * Created by kvaru on 2/23/2018.
  */
 
+/**
+ * UpcomingFragment displays the upcoming movie details in the upcoming movie tab.
+ */
+
 public class UpcomingFragment extends Fragment implements IUpdateUpcoming {
     ListView listView;
     private MovieCustomAdapter movieCustomAdapter;

@@ -18,6 +18,9 @@ import java.util.ArrayList;
  * Created by varun on 12/4/2017.
  */
 
+/**
+ * MovieCustomAdapter plugs the data to the listView to display the values to the users.
+ */
 public class MovieCustomAdapter extends ArrayAdapter {
 
     private Context context;

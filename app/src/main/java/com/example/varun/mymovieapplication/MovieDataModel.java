@@ -7,6 +7,9 @@ import java.util.List;
 /**
  * Created by kvaru on 2/23/2018.
  */
+/**
+ * This class handles the JSON data sent by MovieResultModel.
+ */
 
 public class MovieDataModel {
     private int _ID;

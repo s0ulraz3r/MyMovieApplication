@@ -18,6 +18,10 @@ import retrofit2.Call;
  * Created by kvaru on 2/23/2018.
  */
 
+
+/**
+ * NowPlayingFragment displays the NowPlaying movie details in the NowPlaying movie tab.
+ */
 public class NowPlayingFragment extends Fragment implements IUpdateNowPlaying {
     ListView listView;
     private MovieCustomAdapter movieCustomAdapter;

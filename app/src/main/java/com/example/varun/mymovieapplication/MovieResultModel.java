@@ -10,6 +10,9 @@ import java.util.List;
  * Created by kvaru on 2/23/2018.
  */
 
+/**
+ * This Class is created to get the JSON data and pass it to MovieDataModel class.
+ */
 public class MovieResultModel {
 
     @SerializedName("results")

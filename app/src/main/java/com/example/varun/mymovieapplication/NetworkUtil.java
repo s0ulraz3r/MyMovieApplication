@@ -16,6 +16,10 @@ import retrofit2.converter.gson.GsonConverterFactory;
  * Created by kvaru on 2/24/2018.
  */
 
+/**
+ * This class responsible for fetching JSON data from the API using Retrofit.
+ */
+
 public class NetworkUtil {
     static Retrofit retrofit;
     private static IUpdateUpcoming iUpdateUpcoming;
